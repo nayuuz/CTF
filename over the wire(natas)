@@ -3,17 +3,22 @@ level 0
  password :- natas0
 (you get with cradentials)
 
-level 1
+level 0-1
  username :- natas1
  Password :- 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
 (gotta check the source code and BOOM... you've got it)
 
-level 2
+level 1-2
   username :- natas2
   password :- TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI
 (as given in  the NOTE you can do rightclicking so to solve you gotta use shortcut key "ctrl+U" and you got the access to source code)
 
-level 3
+level 2-3
   username :- natas3
   password:- 3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH
+(bit change so as we right click you will get source code in the you get a PNG file <img src="files/pixel.png"> click that and in as-
+URL looks like-->http://natas2.natas.labs.overthewire.org/files/pixel.png we can go lil back to files and there we get some files from which one is user.txt and as
+we click that BOOM...you got the paasword)
+
+
 
