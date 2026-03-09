@@ -31,5 +31,10 @@ username :- natas5
 password:- 0n35PkggAPm2zbEpOU802c0x0Msn1ToK
 (natas6:- we intersepted the request in burp while refreshing the page and changed a parameter called Refrer from natas4 to natas5 and BOOM :) got the password)
 
+username:- natas6
+password:- 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
+(we again intrcept and ger the request and  in header change a parameter login=0 to =1 and we got he passwd)
 
+username :-natas7
+password:- bmg8SvU1LizuWjx3y7xkNERkHxGre0GS   FOEIUWGHFEEUHOFUOIU
 
