@@ -1,40 +1,48 @@
-natas 0
- username :- natas0
+ **cradentials we got**
+ username:- natas0
  password :- natas0
 (you get with cradentials)
 
- natas1
- username :- natas1
- Password :- 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
-(natas2:- gotta check the source code and BOOM... you've got it)
+LEVEL 0-1 
+username :- natas1
+(natas2:- gotta check the source code and BOOM... you've got it) 
+Password :- 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
 
-natas 2
+LEVEL 1-2
   username :- natas2
-  password :- TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI
 (natas3:- as given in  the NOTE you can do rightclicking so to solve you gotta use shortcut key "ctrl+U" and you got the access to source code)
+  password :- TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI
 
-natas 3
-  username :- natas3
-  password:- 3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH
+LEVEL 2-3
+ username :- natas3
 ( natas4: - bit change so as we right click you will get source code in the you get a PNG file <img src="files/pixel.png"> click that and in as-
 URL looks like-->http://natas2.natas.labs.overthewire.org/files/pixel.png we can go lil back to files and there we get some files from which one is user.txt and as
-we click that BOOM...you got the paasword)
+we click that BOOM...you got the paasword) 
+password:- 3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH 
 
-natas 4
-  username :- natas4
-password :-QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
+LEVEL 3-4
+username :- natas4
 (natas5:- we open suorce code and get nothing but <!-- No more information leaks!! Not even Google will find it this time... -->
 so we go to "robots.txt"(reserch bout it a lil) and get the leaked directory name s3cr3t as we run it in URL we can now access the password)
+password :-QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
 
-natas 5
+
+LEVEL 4-5
 username :- natas5
-password:- 0n35PkggAPm2zbEpOU802c0x0Msn1ToK
 (natas6:- we intersepted the request in burp while refreshing the page and changed a parameter called Refrer from natas4 to natas5 and BOOM :) got the password)
+password:- 0n35PkggAPm2zbEpOU802c0x0Msn1ToK
 
+LEVEL 5-6
 username:- natas6
-password:- 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
 (we again intrcept and ger the request and  in header change a parameter login=0 to =1 and we got he passwd)
+password:- 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
 
+
+LEVEL 6-7
 username :-natas7
-password:- bmg8SvU1LizuWjx3y7xkNERkHxGre0GS   FOEIUWGHFEEUHOFUOIU
+after looking into given soucecode we got include "includes/secret.inc";
+so given folder and file name we used iin "view sourcecode" to get more details and we got the query sectrt code:-FOEIUWGHFEEUHOFUOIU and after running this query
+BOOM... we got our password
+PASSWORD:- bmg8SvU1LizuWjx3y7xkNERkHxGre0GS
+
 
